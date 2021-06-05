@@ -1,0 +1,94 @@
+ * {
+  box-sizing: border-box;
+} 
+body {
+  margin: 0px;
+}
+
+.homepage-wrapper{
+  background-image: url("mathilde-langevin-TFV9EPdYOaw-unsplash.jpg");
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.head-title {
+    padding: 60px;
+    text-align: center;
+    background-color: rgb(219, 204, 207);
+    color: black;
+    font-size: 40px;
+}
+
+.nav-container{
+  text-decoration:none;
+  color: black;
+  
+}
+  .navigation-wrapper{
+    height: 10%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px 100px;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+   /* color:black; */
+   background-color: rgb(219, 204, 207);
+   text-decoration-color: black;
+
+
+  }
+ 
+  button {
+color: #000;
+font-family:Cambria;
+font-size: 12px;
+padding: 15px 15px;
+background: #fff;
+border-radius: 20px;
+margin-top: 30px;
+border: none;
+  }
+
+  .services{
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+padding: 30px;
+
+
+  }
+  #box{
+    width:200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5;
+
+
+  }
+  #box:hover{
+    transform: translateY(-10px);
+  }
+  h5{
+    color: black;
+    text-shadow:0;
+  }
+  .box-3{
+  background-image: url("annemarie-gruden-_TCXOSw0uvM-unsplash.jpg")
+
+    
+  }  
